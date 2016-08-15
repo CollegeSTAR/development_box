@@ -1,0 +1,19 @@
+# Add configuration values here, as shown below.
+
+SMTP_HOST: smtp.sendgrid.net
+SMTP_PORT: "587"
+SENDGRID_USER_NAME: apikey
+SENDGRID_API_KEY: akdlfdksfadsf 
+development: 
+  SECRET_KEY_BASE: a52232d934ed8b9210bb061aaf1557fbf463e0ec34e93a235e0b1278a06c7ea53323bfcc1c5d05ff68e0a35740065e1ea239c311a8789a0290228a7dab178234
+  SMTP_DOMAIN: "localhost:3000"  
+  DB_USER: web
+  DB_PASS: web
+  DATABASE: collegestar_org_development
+
+test: 
+  SECRET_KEY_BASE: f096d1699ba3a7cd78ec639f1b0269e3312c5c727be5d4c7c43306d0cf524f174371b21eab5914447426f320222d955cba93e36f2736dd62eb09d35e2f1968c3
+  SMTP_DOMAIN: "localhost:3000"  
+  DB_USER: web
+  DB_PASS: web
+  DATABASE: collegestar_org_test
